@@ -1,6 +1,6 @@
 # To run project successfully
 
-You must install react router dom and json server and required dependencies to tak a successfull glance at project
+You must install react router dom, json server and required dependencies to take a successfull glance at project
 
 npm install react-router-dom
 npm install -g json-server
