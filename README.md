@@ -2,9 +2,11 @@
 
 You must install react router dom, json server and required dependencies to take a successfull glance at project
 
-npm install react-router-dom
-npm install -g json-server
-json-server --watch db.json --port 5000
+<br>
+
+npm install react-router-dom<br>
+npm install -g json-server<br>
+json-server --watch db.json --port 5000<br>
 
 # React + Vite
 
