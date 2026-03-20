@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "00bb",
+      "name": "Daniel Reids",
+      "email": "danielreids2233@gmail.com",
+      "password": "Dani2233"
+    },
+    {
+      "id": "698d",
+      "name": "Martin Costa",
+      "email": "martincosta2233@gmail.com",
+      "password": "Martin2233"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Chelsea Boots",
+      "price": 3000,
+      "description": "Rugged leather boots",
+      "img": "/assets/chelsea.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Converse 70's",
+      "price": 7000,
+      "description": "Everyday wear flat sole",
+      "img": "/assets/converse.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Black Mcqueens",
+      "price": 8000,
+      "description": "High sole elevated",
+      "img": "/assets/mcqueen.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Adidas Sambas",
+      "price": 3000,
+      "description": "Never out of style",
+      "img": "/assets/sambas.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Nike's LD",
+      "price": 7000,
+      "description": "Causual streets",
+      "img": "/assets/nikes.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Penny Loafers",
+      "price": 2500,
+      "description": "Classic on causuals",
+      "img": "/assets/loafers.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Adidas Tigers",
+      "price": 7500,
+      "description": "White tigers on streets",
+      "img": "/assets/tigers.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Combat Boots",
+      "price": 6500,
+      "description": "Adventure begins here",
+      "img": "/assets/boots.jpg"
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

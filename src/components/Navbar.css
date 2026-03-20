@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+.container {
+
+  background-color: white;
+  padding: 10px;
+}
+
+.row {
+
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navcontainer {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+/* Navigation lists */
+.links ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.logout-button{
+  height: 50px;
+  width: 120px;
+  background-color: rgb(95, 94, 94);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.links > ul > li{
+  position: relative;
+}
+.links-hover-div{
+  background-color: black;
+  height: 3px;
+  width: 0px;
+  position: absolute;
+  top: 20px;
+  left: 100;
+  transition: width 0.3s ease;
+}
+.links>ul>li:hover .links-hover-div{
+  width: 45px;
+}
+
+
+@media (max-width: 600px) {
+  .navrow {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .links ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 345px) {
+  .links ul {
+    gap: 12px;
+  }
+}
